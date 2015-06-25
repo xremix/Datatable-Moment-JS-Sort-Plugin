@@ -1,4 +1,6 @@
-<script type="text/javascript">
+/*
+Find more informations on https://github.com/xremix/Datatable-Moment-JS-Sort-Plugin
+*/
 jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 	"moment-js-date-pre": function ( a ) {
 			//Parse local date into a Moment.JS object and return it's timestamp
@@ -11,4 +13,3 @@ jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 			return b-a;
 		}
 	});
-</script>
