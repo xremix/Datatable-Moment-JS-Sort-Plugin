@@ -1,5 +1,5 @@
-Datatable Moment-JS Sort Plugin
-============
+# Datatable Moment-JS Sort Plugin
+
 A plugin to sort local-date strings in Datatable.
 
 This helps when having a local date string like `25.01.2015` that should be sortable. 
@@ -18,7 +18,7 @@ What the plugin is doing:
 - 31.07.2014
 - 31.10.2014
 
-#Example
+# Example
 
 ```JS
 $('#table').DataTable({
@@ -47,7 +47,7 @@ $('#table').DataTable({
 	}
 ```
 
-#Links
+# Links
 
 Fore more information please see:
 
